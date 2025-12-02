@@ -1,0 +1,2 @@
+
+"""PrivAwareShare package entry point."""

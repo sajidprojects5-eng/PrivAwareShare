@@ -1,0 +1,22 @@
+
+paths:
+  models_dir: "models"
+  logs_dir: "logs"
+  examples_dir: "examples"
+
+privnet_cnn:
+  embedding_dim: 512
+
+policymatch_net:
+  w_face: 0.4
+  w_activity: 0.2
+  w_emotion: 0.2
+  w_location: 0.1
+  w_gesture: 0.1
+
+sharedecision_net:
+  face_similarity_weight: 0.5
+  metadata_consistency_weight: 0.3
+  policy_score_weight: 0.2
+  final_auto_approve_threshold: 0.8
+  final_review_threshold: 0.5

@@ -1,0 +1,9 @@
+
+{
+  "copublisher_0": {
+    "allow_home": true,
+    "allow_public": false,
+    "allow_negative_emotion": false,
+    "allow_sensitive_gestures": false
+  }
+}
